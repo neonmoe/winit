@@ -116,6 +116,7 @@
 #[allow(unused_imports)]
 #[macro_use]
 extern crate lazy_static;
+#[cfg(feature = "platform_x11")]
 #[macro_use]
 extern crate log;
 #[cfg(feature = "serde")]
